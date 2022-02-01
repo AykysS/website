@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
+
+/*BACKGROUND IMAGE AND DIMENSIONS*/
+body{
+  width:1456px;
+  background-color:#8FBEAD;
+  background-image:url("https://res.cloudinary.com/df3pgjkle/image/upload/v1643141730/Group_11_vqsopo.png");
+  background-repeat:no-repeat;
+}
+
+
+/*STYLING FOR NAV BAR*/
+nav{
+  width:1456px;
+  margin-top:3em;
+}
+
+ul{
+  background-color:#BDD7B4;
+  border: 2px solid white;
+}
+
+ul li{
+  display:inline-block;
+  margin:0.2em;
+}
+img{
+  width:75px;
+  margin-left:30px;
+}
+
+
+/*STYLING FOR LOGO*/
+.saladcentral{
+  margin-top:25px;
+  margin-bottom:2px;
+  width: 57vw;
+  font-size:64px;
+  font-family:"Josefin Sans";
+  font-weight:700;
+  color:white;
+  text-transform:uppercase;
+}
+
+
+/*STYLING FOR NAVIGATION BUTTONS*/
+.menu,
+.takeout,
+.team{
+  font-size:20px;
+  padding:10px 17px 2px 50px;
+  font-family:"Courier Prime";
+  color:white;
+  text-transform:uppercase;
+}
+
+
+/*ABOVE THE FOLD HEADER DESIGN*/
+header{
+  height:650px;
+}
+p{
+  font-family:"Josefin Sans";
+  font-size:38px;
+  font-weight:300;
+  color:white;
+  text-align:right;
+  margin:25px 60px;
+  padding:30px;
+}
+span{
+  color:#1D4B39;
+}
+
+
+/*STYLE FOR ORDER TODAY BUTTON*/
+/*I am having an issue with the button. I was having a hard time moving it and I changed the position to absolute which made it easier to move. But, the button only looks the way it is supposed to when the entire website is full screen.*/
+.myButton {
+  z-index:1;
+  position:absolute;
+	box-shadow: 0px 5px 19px -4px #353834;
+	background-color:#1d4b39;
+	border-radius:40px;
+	border:1px solid #1d4b39;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:"Josefin Sans";
+	font-size:30px;
+	font-weight:bold;
+	padding:24px 40px 20px 40px;
+	text-decoration:none;
+  margin-top:130px;
+  margin-left:1070px;
+}
